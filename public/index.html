@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GameChange Solution Chat APP</title>
+  <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/flags.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/main-ang.css">
+  <script src="components/jquery/dist/jquery.js"></script>
+
+</head>
+<body>
+<!--Start of Main Page-->
+<!-- Always shows a header, even in smaller screens. -->
+<header>
+  <div class="bubble"></div>
+</header>
+<div class="card-panel teal lighten-2" id="errors"></div>
+<div class="cards" id="login-screen">
+
+  <div class="row">
+
+    <div class="col s6 offset-s3">
+      <div class="box z-depth-5">
+        <div id="header">
+          <div id="cont-lock"><i class="material-icons lock">lock</i></div>
+          <div id="bottom-head"><h1 id="logintoregister">Material Chat </h1></div>
+        </div>
+        <form class="form-inline col s12" id="nameForm">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input placeholder="Nice Name" type="text" id="name">
+            <label>First Name</label>
+          </div>
+
+          <center>
+            <button class="btn btn-primary btn-lg" type="submit" id="join" name="action"><i
+                class="material-icons">send</i> JOIN
+            </button>
+          </center>
+        </form>
+        <div id="footer-box">
+          <p class="footer-text">Please enter your name below and click Join </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End of Start Page-->
+
+<!--Start of Main page-->
+<div class="main col-md-6 col-md-offset-3">
+  <section class="row cards" id="main-chat-screen">
+    <div class="col s12 right-align updated_msg">
+      <ul class="list-unstyled" id="updates"></ul>
+
+    </div>
+    <div class="col s3">
+      <ul id="rooms" class="collection  hoverable"></ul>
+
+      <ul id="people" class="collection  hoverable"></ul>
+    </div>
+
+    <div class="col s9">
+      <div id="conversation">
+        <ul id="msgs" class="collection"></ul>
+      </div>
+
+
+      <form id="chatForm" class="form-inline">
+        <div class="col s9">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Your message" id="msg">
+          </div>
+        </div>
+        <div class="col s3">
+          <button class="btn-floating btn-large waves-effect waves-light tooltipped" type="submit" name="send"
+                  id="send" data-position="bottom" data-delay="50" data-tooltip="Send"><i
+              class="material-icons circle">send</i>
+          </button>
+          &nbsp;
+          <button class="btn-floating btn-large waves-effect waves-light tooltipped pink" type="submit" name="leave"
+                  id="leave" data-position="bottom" data-delay="50" data-tooltip="Leave Room"><i
+              class="material-icons circle">not_interested</i>
+          </button>
+
+          </ul>
+        </div>
+      </form>
+      <a href="#!" class="real-modal">
+        <div class="floating-button  tooltipped" href="#toast" data-position="bottom" data-delay="50"
+             data-tooltip="Add New Room">+
+        </div>
+      </a>
+    </div>
+</div>
+</div>
+</section>
+<!--End of Main Page-->
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal modal-sm modal-fixed-footer">
+  <div class="modal-content">
+    <h4 class="modal-title green-text" id="createRoomLabel">Create room</h4>
+    You can create a chat room here. Names have to be unique.
+    <form class="form-inline" id="createRoomForm"><input type="text" class="form-control input-lg"
+                                                         placeholder="Room name" id="createRoomName"></form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="modal-action modal-close waves-effect waves-green btn-flat">Close</button>
+    <button data-dismiss="modal" id="createRoomBtn" class="modal-action modal-close waves-effect waves-green btn-flat">
+      Create room
+    </button>
+  </div>
+</div>
+<!-- Modal end -->
+
+
+<script src="js/mat.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+
+
+</body>
+</html>
