@@ -8,13 +8,12 @@
     "font-awesome": "latest"
   },
   "directory": "components",
-  "homepage": "https://github.com/tamaspiros/advanced-chat",
+  "homepage": "GameChange Sol Chat",
   "authors": [
-    "Tamas Piros <me@tamas.io>"
+    "Akash Pathak"
   ],
   "main": "server.js",
   "moduleType": [
     "node"
   ],
-  "license": "free"
 }
