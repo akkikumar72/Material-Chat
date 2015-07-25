@@ -42,3 +42,7 @@ To install <code>**npm install && bower install**</code> and to launch run <code
 3. ![JoinImage.png](https://bitbucket.org/repo/KL7ezM/images/2184708970-JoinImage.png) Click on any already created Room.
 4.  Only Owner can delete room.
 5. You can open [http://localhost:3000/](http://localhost:3000/) in different-different tabs to get real time chat profile.
+
+## Suggestion
+
+If your local Computer has dynamic IP, then you might have to change your IP again in serve.js & client.js
