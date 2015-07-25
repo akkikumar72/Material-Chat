@@ -1,9 +1,12 @@
 ## Setup and configuration
-1. Make Sure you have IP address for Mac use : <strong>**ipconfig getifaddr en0**</strong> 
-
+1. Make Sure you have IP address for Mac use : **ipconfig getifaddr en0**
 Replace: 
 10.24.197.188 with your own IP.
 
+**2.Node installed in System
+
+3.Internet available in latest Browser.
+**
 
 Make sure that you update <strong>server.js</strong>:
 and add your own IP address/hostname if required, i.e.:
