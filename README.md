@@ -1,9 +1,5 @@
-
-
-
-
 ## Setup and configuration
-1. Make Sure you have IP address for Mac use : <strong>ipconfig getifaddr en0</strong> 
+1. Make Sure you have IP address for Mac use : <strong>**ipconfig getifaddr en0**</strong> 
 
 Replace: 
 10.24.197.188 with your own IP.
@@ -22,4 +18,3 @@ Please also update <strong>public/js/client.js</strong>:
 with the right IP address/hostname.
 
 To install <code>npm install && bower install</code> and to launch run <code>npm start</code>.
-
