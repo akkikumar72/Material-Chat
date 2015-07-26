@@ -22,7 +22,7 @@ and add your own IP address/hostname if required, i.e.:
 ```
 
 
-Please also update <strong>public/js/client.js</strong>:
+Please also update **public/js/client.js**:
 
 
 ```
