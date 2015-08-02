@@ -2,8 +2,8 @@ function purge(e,o){if(people[e.id].inroom){var i=rooms[people[e.id].inroom];if(
 
 
 	//Please Make sure that you update server.js:
-	server.listen(app.get("port"),app.get("10.24.197.188"),
-	function(){console.log("Express server listening on  IP: "+app.get("10.24.197.188")+" and port "+app.get("port"))
+	server.listen(app.get("port"),app.get("127.0.0.1"),
+	function(){console.log("Express server listening on  IP: "+app.get("127.0.0.1")+" and port "+app.get("port"))
 
 
 
