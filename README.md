@@ -1,8 +1,5 @@
 ## Setup and configuration
-1. Make Sure you have IP address with you. If using Mac use : **ipconfig getifaddr en0**.
-
-Replace: 
-10.24.197.188 with your own IP Address.
+1. Now No Need for Personal IP's. Just install dependencies and you are good to go. 
 
 **2.Node installed in System**
 
@@ -16,12 +13,7 @@ and add your own IP address/hostname if required, i.e.:
 #!JavaScript
 
 //Please Make sure that you update server.js:
-	server.listen(app.get("port"),app.get("10.24.197.188"),
-	function(){console.log("Express server listening on  IP: "+app.get("10.24.197.188")+" and port "+app.get("port"))
-
-```
-
-
+	
 Please also update **public/js/client.js**:
 
 
