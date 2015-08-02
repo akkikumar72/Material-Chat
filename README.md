@@ -20,11 +20,6 @@ Please also update **public/js/client.js**:
 ```
 #!JavaScript
 
-var socket = io.connect("10.24.197.188:3000");
-```
-
-with the right IP address/hostname.
-
 To install <code>**npm install && bower install**</code> and to launch run <code>**npm start**</code>.
 
 ## Terms of use:
