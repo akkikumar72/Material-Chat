@@ -1,15 +1,15 @@
 ## Setup and configuration
-1. Make Sure you have IP address for Mac use : **ipconfig getifaddr en0**.
+1. Make Sure you have IP address with you. If using Mac use : **ipconfig getifaddr en0**.
 
 Replace: 
-10.24.197.188 with your own IP.
+10.24.197.188 with your own IP Address.
 
 **2.Node installed in System**
 
 **3.Internet available in latest Browser.
 **
 
-Make sure that you update <strong>server.js</strong>
+Make sure that you update **server.js**
 and add your own IP address/hostname if required, i.e.:
 
 ```
@@ -22,7 +22,7 @@ and add your own IP address/hostname if required, i.e.:
 ```
 
 
-Please also update <strong>public/js/client.js</strong>:
+Please also update **public/js/client.js**:
 
 
 ```
@@ -41,4 +41,8 @@ To install <code>**npm install && bower install**</code> and to launch run <code
 2. ![screenshot-localhost 3000 2015-07-25 15-31-28.png](https://bitbucket.org/repo/KL7ezM/images/3780984539-screenshot-localhost%203000%202015-07-25%2015-31-28.png) Click on it to Create a new Room.
 3. ![JoinImage.png](https://bitbucket.org/repo/KL7ezM/images/2184708970-JoinImage.png) Click on any already created Room.
 4.  Only Owner can delete room.
-5. You can open [http://localhost:3000/](http://localhost:3000/) in different-different tabs to get real time chat profile. 
+5. **You can open [http://localhost:3000/](http://localhost:3000/) in different-different tabs to get real-time chat profile**.
+
+## Suggestion
+
+If your local Computer has dynamic IP, then you might have to change your IP again in **server.js** & **client.js**
